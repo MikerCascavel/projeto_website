@@ -1,0 +1,10 @@
+body{
+    background-color: darkblue;
+}
+.menu{
+    border-radius: 20px;
+    background-color: navy;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
