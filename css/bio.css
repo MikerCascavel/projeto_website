@@ -1,0 +1,143 @@
+  /* ======= ESTILO GERAL ======= */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Crimson Text', serif;
+      background: #3a2b5f;
+      color: #f5f3e7;
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+      color: #cbb7ff;
+    }
+
+    a:hover {
+      color: #e1d3ff;
+    }
+
+    /* ======= CABEÇALHO ======= */
+    header {
+      background: rgba(50, 34, 82, 0.9);
+      padding: 15px 20px;
+      text-align: center;
+      border-bottom: 1px solid #5a3e99;
+      position: relative;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      margin: 0;
+      color: #e1d3ff;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    /* Botão Home */
+    .home-button {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #5a3e99;
+      padding: 10px 20px;
+      border-radius: 8px;
+      color: #f5f3e7;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .home-button:hover {
+      background: #7b59c1;
+      box-shadow: 0 0 15px #bfa1ff;
+    }
+
+    /* ======= SEÇÃO AUTOR ======= */
+    section {
+      width: 90%;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 30px;
+      background: rgba(63, 46, 112, 0.85);
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      color: #e1d3ff;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #b39ddb;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .autor img {
+      width: 200px;
+      border-radius: 50%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      margin-bottom: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .autor img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    }
+
+    .autor p {
+      font-size: 1.1em;
+      color: #f3ebf7;
+      margin-top: 10px;
+    }
+
+    .autor a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #5a3e99;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .autor a:hover {
+      background: #7b59c1;
+      color: #fff7d6;
+      box-shadow: 0 0 15px #bfa1ff;
+    }
+
+    /* ======= FOOTER ======= */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(50, 34, 82, 0.9);
+      color: #f3ebf7;
+      margin-top: 40px;
+      border-top: 1px solid #5a3e99;
+    }
+
+    /* ======= RESPONSIVIDADE ======= */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      .autor img {
+        width: 150px;
+      }
+
+      .home-button {
+        left: 10px;
+        padding: 8px 15px;
+        font-size: 0.9em;
+      }
+    }
+  
